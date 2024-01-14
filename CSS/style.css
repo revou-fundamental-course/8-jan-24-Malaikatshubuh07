@@ -1,49 +1,100 @@
 body {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-}
-header {
-  text-align: center;
-}
-header h1 {
-  color: #4f6f52;
-}
-header h4 {
-  color: #4f6f52;
-  margin-top: 32px;
-}
-
-header p {
-  font-size: x-small;
-  margin-top: -10px;
-  color: #739072;
-}
-
-.inputSection {
+  margin: 0;
+  padding: 0;
+  background-color: #383535;
   display: flex;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
 }
-#squarSide {
-  margin-top: 10px;
-  outline: none;
-  border-radius: 8px;
-  border: solid #739072;
+label {
+  display: block;
+  margin-bottom: 10px;
+}
+input {
+  width: 90%;
   padding: 10px;
-}
-#squarSide:focus {
-  border: solid #4f6f52;
-}
-button {
-  background-color: #86a789;
-  color: white;
+  margin: 2px;
   border-radius: 8px;
-  border: none;
-  padding: 10px 20px;
+  margin-bottom: 15px;
+  margin-top: 5px;
+}
+
+.kotak {
+  position: relative;
+  background-color: #ffffff;
+  padding: 20px;
+  padding: 0;
+  width: 50%;
+  height: 80%;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(231, 230, 230, 0.5);
+}
+
+.judul {
+  font-family: "Segoe UI";
+  color: #ffffff;
+  background-color: brown;
+  margin: 0;
+  padding: 25px;
+  font-size: 15px;
+  border-radius: 8px 8px 0 0;
+  display: block;
+}
+#katik {
+  font-family: "Segoe UI";
+  text-decoration: underline;
+  font-size: 30px;
+  margin-right: 0px;
+}
+
+#revoU {
+  display: flex;
+  justify-content: center;
+  color: #cc1c1c;
+  font-weight: bold;
+  margin-top: 8px;
+  font-family: "Trebuchet MS";
+  text-decoration: none;
+}
+
+#revoU:hover {
   cursor: pointer;
+  color: #b3b44d;
+  content: "RevoU";
+}
+
+.p {
+  justify-content: center;
+  text-align: inherit;
+  font-family: "Segoe UI";
+  margin: 5px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.hasil {
+  margin-top: 20px;
+  font-weight: bold;
+}
+.masuk {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  margin-top: -10px;
+  text-align: left;
+  margin-left: 10px;
+}
+
+button {
+  background-color: #4f6f52;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  border: none;
+  border-radius: 8px;
 }
 button:hover {
-  background-color: #536b56;
-}
-button:active {
-  background-color: #4f6f52;
-  transform: translateY(2px);
+  background-color: #344c38;
 }
