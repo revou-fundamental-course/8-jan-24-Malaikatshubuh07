@@ -6,6 +6,7 @@ body {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 30px;
 }
 label {
   display: block;
@@ -18,15 +19,14 @@ input {
   border-radius: 8px;
   margin-bottom: 15px;
   margin-top: 5px;
+  border: 1px solid black;
 }
 
 .kotak {
-  position: relative;
   background-color: #ffffff;
-  padding: 20px;
-  padding: 0;
   width: 50%;
-  height: 80%;
+  height: 0%;
+  padding-bottom: 20px;
   text-align: center;
   border-radius: 8px;
   box-shadow: 0 0 10px rgba(231, 230, 230, 0.5);
@@ -61,40 +61,41 @@ input {
 
 #revoU:hover {
   cursor: pointer;
-  color: #b3b44d;
+  color: #e2a114;
   content: "RevoU";
 }
 
 .p {
-  justify-content: center;
-  text-align: inherit;
   font-family: "Segoe UI";
-  margin: 5px;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin: 15px;
   font-size: 16px;
 }
 
+.masuk,
 .hasil {
-  margin-top: 20px;
-  font-weight: bold;
-}
-.masuk {
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: -10px;
+  margin-top: 20px;
   text-align: left;
   margin-left: 10px;
+  font-weight: bold;
+}
+.hasil {
+  margin-top: 5px;
+  margin-left: 10x;
+}
+#hasil {
+  margin-bottom: 20px;
 }
 
 button {
-  background-color: #4f6f52;
+  background-color: #9c1c1c;
   color: white;
   padding: 10px 20px;
-  margin-right: 10px;
+  margin: 15px 15px 2px;
   cursor: pointer;
   border: none;
   border-radius: 8px;
 }
 button:hover {
-  background-color: #344c38;
+  background-color: #f07c10;
 }
