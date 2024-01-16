@@ -1,101 +1,119 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
 body {
-  margin: 0;
-  padding: 0;
-  background-color: #383535;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  min-height: 100vh;
   padding: 30px;
-}
-label {
-  display: block;
-  margin-bottom: 10px;
-}
-input {
-  width: 90%;
-  padding: 10px;
-  margin: 2px;
-  border-radius: 8px;
-  margin-bottom: 15px;
-  margin-top: 5px;
-  border: 1px solid black;
+  background-color: rgb(53, 52, 50);
 }
 
 .kotak {
-  background-color: #ffffff;
-  width: 50%;
-  height: 0%;
-  padding-bottom: 20px;
-  text-align: center;
-  border-radius: 8px;
-  box-shadow: 0 0 10px rgba(231, 230, 230, 0.5);
+  width: calc(100% - 40px);
+  max-width: 600px;
+  height: 470px;
+  max-width: 95%;
+  margin: 10px auto;
+  margin-top: 30px;
+  border-radius: 15px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  background-color: #fff9f9;
+  padding: 0px;
 }
 
-.judul {
-  font-family: "Segoe UI";
-  color: #ffffff;
+header {
   background-color: brown;
-  margin: 0;
-  padding: 25px;
-  font-size: 15px;
-  border-radius: 8px 8px 0 0;
-  display: block;
+  color: white;
+  border-radius: 15px 15px 0px 0px;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
 }
-#katik {
-  font-family: "Segoe UI";
-  text-decoration: underline;
-  font-size: 30px;
-  margin-right: 0px;
+.p {
+  font-family: "Arial", sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+  text-align: center;
+  margin: 30px;
+  font-size: 15px;
+  margin-top: 10px;
 }
 
-#revoU {
-  display: flex;
-  justify-content: center;
-  color: #cc1c1c;
-  font-weight: bold;
-  margin-top: 8px;
-  font-family: "Trebuchet MS";
+.p a {
+  color: #007bff;
   text-decoration: none;
 }
 
-#revoU:hover {
-  cursor: pointer;
-  color: #e2a114;
-  content: "RevoU";
+.p a:hover {
+  text-decoration: underline;
 }
 
-.p {
-  font-family: "Segoe UI";
-  margin: 15px;
-  font-size: 16px;
+#text {
+  text-align: justify;
 }
 
-.masuk,
-.hasil {
-  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-  margin-top: 20px;
-  text-align: left;
-  margin-left: 10px;
-  font-weight: bold;
+input {
+  display: flex;
+  border-radius: 8px;
+  border: 2px solid rgb(121, 119, 119);
+  width: 60%;
+  padding: 5px;
+  margin-bottom: 10px;
 }
-.hasil {
-  margin-top: 5px;
-  margin-left: 10x;
+
+.masuk {
+  margin-left: 18px;
 }
-#hasil {
-  margin-bottom: 20px;
+
+#inputNumber {
+  margin-top: 10px;
+  margin-left: 15px;
+}
+
+textarea {
+  width: 60%;
+  height: 150px;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  margin-bottom: 10px;
+  margin-left: 15px;
+  border-radius: 8px;
+  border: 1px solid rgb(161, 159, 159);
+  padding: 5px;
+  resize: none;
 }
 
 button {
-  background-color: #9c1c1c;
+  background-color: brown;
   color: white;
-  padding: 10px 20px;
-  margin: 15px 15px 2px;
-  cursor: pointer;
+  margin-left: 15px;
   border: none;
-  border-radius: 8px;
+  border-radius: 5px;
+  padding: 9px;
+  width: 80px;
+  cursor: pointer;
 }
+
 button:hover {
-  background-color: #f07c10;
+  background-color: #e6410b;
+  color: black;
+}
+
+#kaltik {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold;
+  text-decoration: underline;
+  font-size: 30px;
+}
+
+#btn {
+  margin-left: 46%;
+}
+#gambar-kubus {
+  width: 298px;
+  height: 250px;
+  position: absolute;
+  top: 64%;
+  right: 125px;
+  transform: translateY(-50%);
+  border: 5px solid #333;
+  border-radius: 8px;
 }

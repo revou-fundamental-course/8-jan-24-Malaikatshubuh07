@@ -1,28 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="/8-jan-24-Malaikatshubuh07/CSS/Style.css">
-  <title>Project Mini</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="/8-jan-24-Malaikatshubuh07/CSS/Style.css" />
+  <title>Calculator</title>
 </head>
+
 <body>
   <div class="kotak">
     <header>
-      <h2 class="judul"><span id="katik">Katik</span> Kalkulator Matematik</h2>
+      <span id="kaltik">Kaltik</span>
+      <span id="mtk">Kalkulator matematika</span>
     </header>
-    <div class="isi">
-      <p class="p">Welcome To Kalkulator Luas Dan Keliling Persegi Web ini digunakan untuk menghitung luas dan Keliling persegi dalam rangka menyelesaikan mini project <a href="https://revou.co/"id="revoU">RevoU</a></p>
-      <img src="https://i.pinimg.com/736x/48/0b/71/480b711b6c3f2a810a5218d846168c4d.jpg" alt="gambarkubus" width="40%">
-      <label for="inputangka" class="masuk">Masukkan angka:</label>
-      <input type="number" id="inputangka" placeholder="Masukkan angka" alt="input">
-      <label  class="hasil">Hasil</label>
-      <input type="text" id="hasil" placeholder="Hasil" readonly disabled>
-      <a href="index.html"><button>Riset</button></a>
-      <button>Keliling</button>
-      <button>Luas</button>
+    <div id="text">
+      <p class="p">
+        Welcome To Kalkulator Luas Dan Keliling Persegi Web Ini Digunakan
+        Untuk Menghitung Luas Dan Keliling Persegi Dalam Rangka Menyelesaikan
+        Mini Project <a href="https://revou.co/" id="revoU">RevoU</a>
+      </p>
+      <label for="inputNumber" class="masuk">Masukan Nilai</label>
+      <input type="number" id="inputNumber" placeholder="Masukan Nilai" />
+      <div>
+        <textarea name="hasil" id="hasil" cols="30" rows="10" placeholder="hasilnya ada disini min" readonly></textarea>
+      </div>
+      <button onclick="resetPage()" id="btn">Reset</button>
+      <button onclick="calculate()" id="btnn">Hitung</button>
     </div>
+    <img src="https://i.pinimg.com/736x/77/48/8e/77488ecdb969c1e23e5642c152d283ed.jpg" alt="Gambar Kubus"
+      id="gambar-kubus" />
   </div>
-  <script src=""></script>
+  <script src="/8-jan-24-Malaikatshubuh07/JS/Script.js"></script>
 </body>
+
 </html>
